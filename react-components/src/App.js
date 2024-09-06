@@ -4,6 +4,7 @@ import { BookList } from './components/BookList';
 import { Timer } from './components/Timer';
 import './App.css';
 import { CLicker } from './components/Clicker';
+import { Counter } from './components/Counter';
 
 function App() {
   const books = [
@@ -91,6 +92,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        <Counter />
 
       <CLicker />
 
