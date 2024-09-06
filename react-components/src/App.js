@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { BookList } from './components/BookList';
 import { Timer } from './components/Timer';
 import './App.css';
+import { CLicker } from './components/Clicker';
 
 function App() {
   const books = [
@@ -90,6 +91,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+      <CLicker />
+
         <Timer start={1}/>
         <Timer start={7} />
         <Header>
