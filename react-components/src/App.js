@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import { Header } from './components/Header';
 import { BookList } from './components/BookList';
+import { Timer } from './components/Timer';
 import './App.css';
 
 function App() {
@@ -89,6 +90,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Timer start={1}/>
+        <Timer start={7} />
         <Header>
             <span>Book </span>Library
         </Header>
