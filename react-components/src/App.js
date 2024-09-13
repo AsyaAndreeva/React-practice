@@ -9,7 +9,7 @@ import { Counter } from './components/Counter';
 function App() {
   const books = [
     {
-      "author": "Chinua Achebe",
+      "author": "gChinua Achebe",
       "country": "Nigeria",
       "imageLink": "images/things-fall-apart.jpg",
       "language": "English",
